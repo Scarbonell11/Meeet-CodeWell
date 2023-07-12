@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #013243;
+}
+
+/* header*/
+.cabecera{
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.logo{
+    margin-bottom: 25px;
+}
+
+.cabecera h1{
+    color: #32f5c8;
+    font-size: 13rem;
+    font-family: 'Sen', sans-serif;;
+}
+
+.cabecera p{
+    font-family: 'Inter', sans-serif;
+    font-size: 28px ;
+    color: #a9bdc6;
+}
+
+
+/* buttons and social links*/
+.button{
+    max-width: 220px;
+    margin: 60px 150px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #32f5c8;
+}
+
+.button a{
+font-family: 'Inter', sans-serif;
+text-decoration: none;
+font-weight: bold;
+color: black;
+}
+
+.button:hover{
+    background-color: #71f5d6;
+    transition: 0.5s;
+}
+
+.social{
+    margin: 60px 150px;
+    padding: 10px;
+    font-size: 20px;
+    color: #a9bdc6;
+}
+
+
+ /*user images*/
+.user1{
+    position: absolute;
+    right: 220px;
+    top: 55%;
+    z-index: -1;
+}
+
+.user2{
+    position: absolute;
+    right: 280px;
+    top: 100px;
+    z-index: -1;
+}
+
+.user3{
+    position: absolute;
+    left: 65px;
+    top: 150px;
+    z-index: -1;
+}
+
+.user4{
+    position: absolute;
+    bottom: 25px;
+    right: 350px;
+    z-index: -1;
+}
+
+.user5{
+    position: absolute;
+    right: 28%;
+    top: 130px;
+    z-index: -1;
+}
+
+.user6{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    z-index: -1;
+}
+
+/* Tablet and notebook view */
+@media (width <= 1266px) and (width >= 951px) {
+    /* Header */
+.cabecera{
+    margin: 20px 15px 20px 20px;
+}
+.cabecera h1{
+    font-size: 8rem;
+    margin-top: 150px;
+}
+
+.cabecera p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+ .button{
+    margin: 30px;
+ }
+
+ .social{
+   margin-top: 180px;
+   margin-left: 25px;
+ }
+
+ /* Users Images */
+ .user1{
+    top: 30%;
+    right: 340px;
+ }
+
+ .user2{
+    top: 10px;
+    right: 250px;
+ }
+ .user3{
+    top: 70px;
+    left: 20px;
+ }
+ .user4{
+    bottom: 30px;
+ }
+
+ .user5{
+    right: 470px;
+    top: 150px;
+ }
+
+ .user6{
+    top: 49%;
+    left: 55%;
+ }
+}
+
+
+/* Mobile view */
+@media (width < 950px){
+    /* Header */
+    .cabecera{
+        margin: 20px 15px 20px 20px;
+    }
+    .cabecera h1{
+        margin-top: 140px;
+        font-size: 4rem;
+    }
+
+    .cabecera p{
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+     .button{
+        margin: 30px;
+     }
+    
+     .social{
+       margin-top: 180px;
+       margin-left: 25px;
+       margin-bottom: 10px;
+     }
+
+     /* Users Images */
+    .user1{
+        display: none;
+    }
+
+    .user2{
+        top: 70px;
+        right: 75px;
+    }
+
+    .user3{
+        left: auto;
+        right: 320px;
+        top: 90px;
+    }
+
+    .user4{
+        display: none;
+    }
+
+    .user5{
+        display: none;
+    }
+
+    .user6{
+        top: 53%;
+        left: 30%;
+    }
+}
